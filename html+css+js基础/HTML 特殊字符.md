@@ -1,0 +1,15 @@
+# HTML 特殊字符
+
+有些特殊字符在 html 文件中时不能直接表示的，例如：
+
+空格：`&nbsp;`
+
+小于号：`&lt;`
+
+大于号：`&gt;`
+
+按位与：`&amp;`
+
+[HTML特殊字符编码对照表](https://www.jb51.net/onlineread/htmlchar.htm)
+
+**总结：HTML 只是描述了页面的骨架结构，使用 CSS 可以针对页面进行进一步美化**
