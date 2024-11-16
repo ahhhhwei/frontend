@@ -41,3 +41,73 @@ JavaScript 代码可以嵌入到 HTML 的 script 标签中：
 </script>
 ```
 
+## 六、JavaScript 的书写形式
+
+### 1.行内式
+
+直接嵌入到 html 元素内部
+
+```html
+<input type="button" value="点我" onclick="alert('hello world!')">
+```
+
+**注意：**
+
+JS 中字符串常量可以使用单引号，也可以使用双引号表示，**HTML中推荐使用双引号，JS 中推荐使用单引号**
+
+### 2.内嵌式
+
+写到 script 标签：
+
+```html
+<script>
+    alert("hello world!");
+</script>
+```
+
+### 3.外部式
+
+写到单独的 .js 文件中
+
+```html
+<script src="hello.js"></script>
+```
+
+```javascript
+alert("hello world");
+```
+
+### 4.注释
+
+- 单行注释：//
+- 多行注释：/* */
+- 注释不能嵌套
+
+### 5.输入输出
+
+#### 5.1 输入
+
+弹出一个输入框：
+
+```javascript
+// 弹出一个输入框
+prompt("请输入您的姓名：")
+```
+
+#### 5.2 输出
+
+弹出一个警示对话框，输出结果：
+
+```javascript
+// 弹出一个输出框
+alert("hello world");
+```
+
+在控制台打印一个日志：
+
+```javascript
+// 向控制台打印一个日志
+console.log(...)
+```
+
+> vscode 中直接输入 log 再按 tab 键，就可以快速输入 console.log
