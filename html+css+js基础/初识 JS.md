@@ -7,3 +7,37 @@
 - 主要在客户端（浏览器）上运行，现在也可以基于 node.js 在服务器端运行
 
 [Javascript诞生记](http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html)
+
+## 二、Javascript 和 HTML 和 CSS 之间的关系
+
+![关系](./pic/关系.png)
+
+- HTML：网页的结构（骨）
+- CSS：网页的表现（皮）
+- JavaScript：网页的行为（魂）
+
+## 三、Javascript 运行过程
+
+- 编写的代码时保存在文件中的，也就是存储在硬盘（外存）
+- 双击 .html 文件浏览器（应用程序）就会读取文件，把文件内容加载到内存中（数据流向：硬盘 $\Rightarrow$ 内存）
+- 浏览器会解析用户编写的代码，把代码翻译成二进制的，能让计算机识别的指令（解释器的工作）
+- 得到的二进制指令会被 CPU 加载并执行（数据流向：内存 $\Rightarrow$ CPU）
+
+## 四、Javascript 的组成
+
+- ECMAScript（简称 ES）：Javascript 语法
+- DOM：页面文档对象模型，对页面中的元素进行操作
+- BOM：浏览器对象模型，对浏览器窗口进行操作
+
+只有 JS 语法，只能写出一些基础的逻辑流程；想要完成更复杂的任务，完成和浏览器以及页面的交互，那么就需要 DOM API 和 BOM API（这里主要指的是在浏览器端运行的 JS，如果时运行在服务端的 JS，则需要使用 node.js 的API，就不太需要关注 DOM 和 BOM）
+
+## 五、前置知识
+
+JavaScript 代码可以嵌入到 HTML 的 script 标签中：
+
+```html
+<script>
+	alert("你好!");
+</script>
+```
+
