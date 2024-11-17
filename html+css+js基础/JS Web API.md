@@ -225,7 +225,7 @@ Element.innerText 属性表示一个节点及其后代的渲染文本内容
 </script>
 ```
 
-![innerText](./pic/innerText)
+![innerText](./pic/innerText.png)
 
 可以看到，通过 innerText 无法获取到 div 内部的 html 结构，只能得到文本内容，修改页面的时候也会把 span 标签当成文本进行设置。
 
